@@ -17,4 +17,5 @@
 | PVM   | h  | Kuvaus                                                      |
 | ----- | -- | ----------------------------------------------------------- |
 | 13.3. | 1  | Repositorion ja dokumentaatiopohjien luonti |
-| Yht.  | 1  |                                                             |
+| 13.3. | 1  | Määrittelydokumentin kirjoittaminen |
+| Yht.  | 2  |                                                             |
