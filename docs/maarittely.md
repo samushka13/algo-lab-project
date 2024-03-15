@@ -10,7 +10,7 @@ Erillisen dokumentaation kieli on suomi. Koodikommentoinnin kieli on englanti.
 
 ## Ohjelmointikieli
 
-Python (versio 3.9 tai uudempi).
+Python (versio 3.12).
 
 ## Ohjelmointikielet vertaisarviointiin
 
@@ -22,11 +22,11 @@ Työssä tutkitaan musiikin generointia Markovin ketjujen eri asteilla, eli käy
 
 ## Syötteet
 
-Ohjelma saa yksinkertaisen graafisen käyttöliittymän avulla syötteenä digitaalisessa muodossa nuotinnettua musiikkia (abc-notaatio), jota saa julkisista tietokannoista, kuten https://abcnotation.com/. Tämän jälkeen ohjelma generoi syötteiden pohjalta musiikkia halutulla Markovin ketjun asteella trie-rakennetta hyödyntäen.
+Ohjelma saa yksinkertaisen graafisen käyttöliittymän (tkinter) avulla syötteenä digitaalisessa muodossa nuotinnettua musiikkia (abc-notaatio tai midi), jota saa julkisista tietokannoista, kuten https://abcnotation.com/ ja https://www.mididb.com/. Tämän jälkeen ohjelma generoi syötteiden pohjalta musiikkia halutulla Markovin ketjun asteella trie-rakennetta hyödyntäen.
 
 ## Aika- ja tilavaativuudet
 
-Trie-puun rakentaminen tapahtuu ajassa O(mn), jossa n on tallennettavien merkkijononen määrä ja m näiden merkkijonojen pituuden keskiarvo. Trie-puussa operaatioiden (lisääminen, poistaminen ja etsintä) aika- ja tilavaativuudet on O(n) sekä keskimääräisesti että pahimmassa tapauksessa.
+Trie-puun rakentaminen tapahtuu ajassa O(mn), jossa n on tallennettavien merkkijonojen määrä ja m näiden merkkijonojen pituuden keskiarvo. Trie-puussa operaatioiden (lisääminen, poistaminen ja etsintä) aika- ja tilavaativuudet on O(n) sekä keskimääräisesti että pahimmassa tapauksessa.
 
 ## Viitteet
 
