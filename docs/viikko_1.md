@@ -1,16 +1,24 @@
 # Viikkoraportti 1
 
-## Kuvaus
+## Mitä olen tehnyt tällä viikolla?
 
-- Mitä olen tehnyt tällä viikolla?
+Tällä viikolla loin repositorion, alustin projektin kehitysympäristön ja loin dokumentaatiopohjat. Lisäksi luin läpi kurssin ohjeet ja muut tukimateriaalit.
 
-- Miten ohjelma on edistynyt?
+## Miten ohjelma on edistynyt?
 
-- Mitä opin tällä viikolla / tänään?
+Määrittely valmistui. Koodia ei ole vielä kirjoitettu.
 
-- Mikä jäi epäselväksi tai tuottanut vaikeuksia?
+## Mitä opin tällä viikolla?
 
-- Mitä teen seuraavaksi?
+Eipä tullut uutta asiaa vastaan.
+
+## Mikä jäi epäselväksi tai tuotti vaikeuksia?
+
+Ei mikään.
+
+## Mitä teen seuraavaksi?
+
+Luon yksinkertaisen graafisen käyttöliittymän, jolla voi antaa tarvittavia syötetiedostoja, koska siitä on merkittävää hyötyä projektin alusta alkaen. Sitten aloitan logiikan kirjoittamisen. Luultavasti kirjoitan ensin koodin trie-puiden rakentamista varten, koska kyseinen rakenne on työn ytimessä. Sitten alan rakentaa siltaa syötetiedostojen ja trie-rakentajan välille.
 
 ## Tuntikirjanpito
 
@@ -18,4 +26,6 @@
 | ----- | -- | ----------------------------------------------------------- |
 | 13.3. | 1  | Repositorion ja dokumentaatiopohjien luonti |
 | 13.3. | 1  | Määrittelydokumentin kirjoittaminen |
-| Yht.  | 2  |                                                             |
+| 15.3. | 1  | Kehitysympäristön alustaminen |
+| 15.3. | 1  | Viikkoraportin kirjoittaminen |
+| Yht.  | 4  |                                                             |
