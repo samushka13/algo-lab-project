@@ -30,7 +30,7 @@ def get_prediction(pitch: int, data: list, order: int):
 def generate_sequence(pitch: int, data: list, length: int, order: int):
     pitches = []
 
-    for n in range(length):
+    for _ in range(length):
         pitches.append(get_prediction(pitch, data, order))
         pitch = pitches[-1]
 
