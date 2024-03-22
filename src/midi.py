@@ -1,14 +1,20 @@
-import mido
+class MidiHandler:
+    def __init__(self, midifile):
+        self.mid = midifile
 
-if __name__ == "__main__":
-    mid = mido.MidiFile('song.mid')
-    notes = []
-    for msg in mid:
-        if msg.type == "note_on":
-            note = msg.note
-            velo = round(msg.velocity, -1)
-            time = round(msg.time, 2)
-            notes.append({"note": note, "velo": velo, "time": time})
+    def get_notes(self):
+        notes = []
+        for msg in self.mid:
+            if msg.type == "note_on":
+                note = msg.note
+                # velo = round(msg.velocity, -1)
+                # time = round(msg.time, 2)
+                # notes.append({"note": note, "velo": velo, "time": time})
+                if note > 127:
+                    notes.append(round(127))
+                elif note < 0:
+                    notes.append(round(0))
+                else:
+                    notes.append(round(note))
 
-    for note in notes:
-        print(note)
+        return notes
