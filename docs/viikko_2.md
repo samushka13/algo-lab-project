@@ -26,5 +26,6 @@ Tällä viikolla oli tarkoitus luoda yksinkertainen graafinen käyttöliittymä,
 | ----- | -- | ----------------------------------------------------------- |
 | 19.3. | 1  | Trie-rakentajan hahmottelu |
 | 19.3. | 2  | Muiden mahdollisesti hyödyllisten logiikoiden hahmottelu |
-| 19.3. | 1  | Viikkoraportin kirjoittaminen |
-| Yht.  | 4  |                                                             |
+| 21.3. | 1  | Infran parantelu ja helppokäyttötyökalujen asennukset |
+| 21.3. | 1  | Viikkoraportin kirjoittaminen |
+| Yht.  | 5  |                                                             |
