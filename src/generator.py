@@ -2,10 +2,31 @@ from collections import Counter
 import random
 
 class Generator:
-    def get_chains(self, arr: list, order: int):
+    """
+    Generates a melody based on given notes.
+
+    Attributes:
+        start: The midi note used as the starting point.
+        notes: The midi notes used as a source material.
+        length: The length of the sequence to be generated.
+        order: The selected Markov chain order.
+    """
+    def __init__(self, start: int, notes: list, length: int, order: int):
+        self.start = start
+        self.notes = notes
+        self.length = length
+        self.order = order
+
+    def get_chains(self):
+        """
+        Forms a list of melody chains from notes based on the selected Markov chain order.
+
+        Returns:
+            The list of melody chains.
+        """
         arrays = []
-        for n in range(order + 1):
-            arrays.append(arr[n:])
+        for n in range(self.order + 1):
+            arrays.append(self.notes[n:])
 
         chains = []
         for x in zip(*arrays):
@@ -13,9 +34,18 @@ class Generator:
 
         return chains
 
-    def get_prediction(self, pitch: int, data: list, order: int):
-        chains = self.get_chains(data, order)
-        chains = [chain for chain in chains if chain[0] == pitch]
+    def get_prediction(self, note: int):
+        """
+        Predicts the next note.
+
+        Args:
+            note: The current midi note.
+
+        Returns:
+            The prediction for the next note.
+        """
+        chains = self.get_chains()
+        chains = [chain for chain in chains if chain[0] == note]
         counts = Counter(chains)
         keys = counts.keys()
 
@@ -28,11 +58,17 @@ class Generator:
 
         return prediction
 
-    def generate_sequence(self, pitch: int, data: list, length: int, order: int):
-        pitches = []
+    def generate_sequence(self):
+        """
+        Generates a sequence of notes.
 
-        for _ in range(length):
-            pitches.append(self.get_prediction(pitch, data, order))
-            pitch = pitches[-1]
+        Returns:
+            The generated sequence.
+        """
+        sequence = []
 
-        return pitches
+        for _ in range(self.length):
+            sequence.append(self.get_prediction(self.start))
+            self.start = sequence[-1]
+
+        return sequence

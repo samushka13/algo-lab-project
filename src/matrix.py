@@ -1,4 +1,12 @@
 class Matrix:
+    """
+    This class is here only as a note for possible future use.
+    Further comments will be added, if the class is utilized.
+
+    Attributes:
+        n: number of rows.
+        m: number of columns.
+    """
     def __init__(self, n, m):
         self.matrix = self.build(n, m)
 
