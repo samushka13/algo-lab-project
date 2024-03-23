@@ -2,11 +2,11 @@
 
 ## Mitä olen tehnyt tällä viikolla?
 
-Opiskelin aihetta. Loin alustavan trie-rakentajan ja nuottigeneraattorin. Lisäsin projektiin muutamia työkaluja nopeuttamaan koodaamista. Kirjoitin muutamia alustavia testejä.
+Opiskelin aihetta. Loin alustavan trie-rakentajan ja nuottigeneraattorin. Lisäsin projektiin muutamia työkaluja nopeuttamaan koodaamista. Kirjoitin muutamia alustavia testejä ja tein koodikommentointia. Kirjoitin alustavat käyttö- ja testausohjeet.
 
 ## Miten ohjelma on edistynyt?
 
-Lisäsin repoon muutamia alustavia logiikan palasia erilaisia kokeiluja varten sekä midi-tiedostojen lukijan. Ohjelma ei kuitenkaan ole vielä varsinaisesti käytettävissä.
+Lisäsin repoon muutamia alustavia logiikan palasia erilaisia kokeiluja varten sekä midi-tiedostojen lukijan. Ohjelma on suoritettavissa, mutta vain kiinteillä syötteillä eikä lopputulos ole vielä tarkoituksenmukainen. Testejä voi jo ajaa ja testikattavuutta seurata testausdokumentin ohjeiden mukaisesti.
 
 ## Mitä opin tällä viikolla?
 
@@ -29,5 +29,7 @@ Tällä viikolla oli tarkoitus luoda yksinkertainen graafinen käyttöliittymä,
 | 21.3. | 1  | Infran parantelu ja helppokäyttötyökalujen asennukset |
 | 23.3. | 1  | Nuottigeneraattorin hahmottelu |
 | 23.3. | 1  | Alustavien testien kirjoittaminen |
+| 23.3. | 1  | Koodikommentointia |
+| 23.3. | 1  | Alustavan testausdokumentin kirjoittaminen |
 | 23.3. | 1  | Viikkoraportin kirjoittaminen |
-| Yht.  | 7  |                                                             |
+| Yht.  | 9  |                                                             |
