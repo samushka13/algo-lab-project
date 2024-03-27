@@ -17,7 +17,7 @@ class MidiHandler:
             note: The midi note to be validated.
 
         Returns:
-            The note as a valid midi note, in range [0, 127].
+            The note as a valid midi note.
         """
 
         return max(min(note, 127), 0)

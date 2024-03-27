@@ -28,6 +28,6 @@ Testit ovat vielä hyvin vajaat ja keskittyvät lähinnä varmistamaan, että mi
 
 ## Kattavuusraportti
 
-Kaksi tiedostoa on tarkoituksella vielä ilman testejä, sillä ne ovat tarkoituksella vain muistissa myöhempää työstämistä varten.
+Kaksi tiedostoa on tarkoituksella vielä ilman testejä, sillä ne ovat vain muistissa myöhempää työstämistä varten.
 
 ![Testikattavuusraportti](/docs/coverage_report.png)

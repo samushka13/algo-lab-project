@@ -1,20 +1,28 @@
 # Viikkoraportti 6
 
-## Kuvaus
+## Mitä olen tehnyt tällä viikolla?
 
-- Mitä olen tehnyt tällä viikolla?
+...
 
-- Miten ohjelma on edistynyt?
+## Miten ohjelma on edistynyt?
 
-- Mitä opin tällä viikolla / tänään?
+...
 
-- Mikä jäi epäselväksi tai tuottanut vaikeuksia?
+## Mitä opin tällä viikolla?
 
-- Mitä teen seuraavaksi?
+...
+
+## Mikä jäi epäselväksi tai tuotti vaikeuksia?
+
+...
+
+## Mitä teen seuraavaksi?
+
+...
 
 ## Tuntikirjanpito
 
 | PVM   | h  | Kuvaus                                                      |
 | ----- | -- | ----------------------------------------------------------- |
-|       |    |   |
+|       |    |  |
 | Yht.  |    |                                                             |
